@@ -7,4 +7,4 @@
 <br>
 <br>
 
-## 🌐 Odkaz na stránku: [seznam-pes.github.io](seznam-pes.github.io)
+## 🌐 Odkaz na stránku: [seznam-pes.github.io](https://seznam-pes.github.io)
