@@ -1,0 +1,92 @@
+h1 {   
+    color:rgb(99, 51, 3);
+    font-size: xx-large;
+    text-align: center;
+}
+
+.podnadpis {
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-size: x-large;
+    color:rgb(99, 51, 3);
+    margin-left: 1%;
+}
+
+table, form, ul {
+    margin-left: 1%;
+    font-size: larger;
+    list-style-type: square;
+}
+
+button {
+    font-size: large;
+    margin-top: 1%;
+}
+
+table, th, td {
+    border: 1px solid #888;
+    padding: 8px;
+    background-color: rgb(255, 234, 213);
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.dmbutton {
+    float: right;
+}
+
+body {
+    background-color: rgb(236, 193, 150);
+    color: rgb(44, 43, 42);
+    font-family: "Dosis";
+}
+
+.dark-body {
+    background-color: rgb(44, 43, 42);
+    color: rgb(236, 193, 150);
+}
+
+.dark-body h1 {
+    color: rgb(214, 112, 11)
+}
+
+.dark-body h2 {
+    color: rgb(214, 112, 11)
+}
+
+.dmtable {
+    color: rgb(44, 43, 42);
+}
+
+.prekvapko {
+    margin-left: 1%;
+}
+
+button {
+    font-family: "Dosis";
+    font-weight: bold;
+}
+
+.item {
+    font-weight: bold;
+    color:rgb(99, 51, 3);
+}
+
+.dark-body .item {
+    font-weight: bold;
+    color: rgb(214, 112, 11)
+}

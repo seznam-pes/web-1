@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>Moje kavárna</title>
+        <link rel="stylesheet" href="style/styles.css">
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <script src="scripts/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="dmbutton"><button onclick="dark()">Tmavý režim</button></div>
+        <br>
+        <h1>Vítejte v kavárně U Dobré chuti!</h1>
+        <div class="podnadpis">Zde najdete tu nejlepší kávu ve městě!</div>
+        <br>
+        <br>
+        <br>
+        <img src="images/coffeeshop.jpg" alt="interiér kavárny">
+        <h2>Stálá nabídka:</h2>
+        <ul>
+            <li><div class="item">Espresso</div> 35 Kč<br><br></li>
+            <li><div class="item">Cappucino</div> 45 Kč<br><br></li>
+            <li><div class="item">Latté</div> 50 Kč</li>
+        </ul>
+        <br>
+        <br>
+        <h2>Otevírací doba:</h2>
+        <div class="dmtable"><table border="3">
+            <tr><th><i>Den</i></th><th><i>Čas</i></th></tr>
+            <tr><th>Pondělí - Pátek</th><th>8:00 - 18:00</th></tr>
+            <tr><th>Sobota</th><th>9:00 - 16:00</th></tr>
+            <tr><th>Neděle</th><th>Zavřeno 🙁</th></tr>
+        </table>
+        </div>
+        <br>
+        <br>
+        <h2>Rezervace:</h2>
+        <form>
+            <label>Jméno a příjmení: <input type="text" id="name"></label><br>
+            <label>E-mail: <input type="email" id="email"></label><br>
+            <label>Datum rezervace: <input type="date" id="datum"></label><br>
+            <label>Čas rezervace: <input type="time" id="cas"></label><br>
+            <button type="submit" onclick="reserve()">Zarezervovat</button>
+        </form>
+        <br>
+        <br>
+        <br>
+        <div class="prekvapko">
+        <button onclick="pozdrav()">Klikni pro překvapení 🎈</button></div>
+    </body>
+</html>
